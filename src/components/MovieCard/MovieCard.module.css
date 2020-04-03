@@ -1,0 +1,43 @@
+.movieCard {
+  display: flex;
+  padding: 20px 0;
+}
+
+.movieCard img {
+  width: 280px;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+
+.infoContainer {
+  padding: 20px;
+}
+
+.infoContainer * {
+  margin-bottom: 20px;
+}
+
+.genres span {
+  padding-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #01d277;
+  border-color: #01d277;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  .movieCard {
+    flex-direction: column;
+    align-items: center;
+  }
+  .movieCard img {
+    width: 340px;
+  }
+}
